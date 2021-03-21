@@ -85,6 +85,12 @@ img{
             justify-content: space-between;
             color:lighten($text-dark-blue ,2%);
             font-size: 1.2rem;
+
+            .arrow-down{
+             &.invert{
+                transform: scaleY(-1);
+             }
+            }
          }
          .answer{
               display: none;
@@ -92,7 +98,12 @@ img{
               font-size: $font-size-base;
               line-height: $line-height-base;
               color: $text-dark-blue;
+            
+              &.show {
+                  display: inline-block;
+              }
          }
+         
     }
  
     .separator
