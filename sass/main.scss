@@ -85,6 +85,15 @@ img{
             justify-content: space-between;
             color:lighten($text-dark-blue ,2%);
             font-size: 1.2rem;
+            
+            h6{
+                &.bold{
+                    color: $text-color;
+                }
+            }
+            h6:hover{
+                color: $text-soft-red;
+            }
 
             .arrow-down{
              &.invert{

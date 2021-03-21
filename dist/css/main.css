@@ -83,6 +83,14 @@ img {
   font-size: 1.2rem;
 }
 
+.content .faq-item .question h6.bold {
+  color: #1d1e35;
+}
+
+.content .faq-item .question h6:hover {
+  color: #f47c57;
+}
+
 .content .faq-item .question .arrow-down.invert {
   transform: scaleY(-1);
 }

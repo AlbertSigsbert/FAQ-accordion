@@ -14,8 +14,9 @@ function toggleContent(e)
         if(!showContent)
         {
             e.target.classList.add('invert');
+            e.target.parentElement.previousElementSibling.classList.add('bold');
             e.target.parentElement.parentElement.nextElementSibling.classList.add('show');
-
+           
             //Set State
             showContent =true
         }
@@ -23,6 +24,7 @@ function toggleContent(e)
         else
         {
             e.target.classList.remove('invert');
+            e.target.parentElement.previousElementSibling.classList.remove('bold');
             e.target.parentElement.parentElement.nextElementSibling.classList.remove('show');
 
             //Set State
