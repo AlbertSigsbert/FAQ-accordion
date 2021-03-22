@@ -32,9 +32,9 @@ This is a desktop View.
 <img src="dist/images/Desktop view.png">
 
 This is for mobile view taken on a Pixel 2.
-
-   <img src="dist/images/Mobile_view.jpeg" style="display:bock; margin:0 auto">
-
+  <p align="center">
+   <img src="dist/images/Mobile_view.jpeg">
+  </p>
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
