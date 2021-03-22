@@ -27,8 +27,13 @@ Users should be able to:
 - Hide/Show the answer to a question when the question is clicked
 
 ### Screenshot
+This is a desktop View.
+![127 0 0 1_5500_dist_index html](https://user-images.githubusercontent.com/66664314/111941813-f4d87300-8ae2-11eb-8f9c-689dbbcfa993.png)
 
-![](./screenshot.jpg)
+
+This is for mobile view taken on a Pixel 2.
+![127 0 0 1_5500_dist_index html(Pixel 2)](https://user-images.githubusercontent.com/66664314/111941562-5c41f300-8ae2-11eb-8f7d-d8462dc30127.png)
+
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
