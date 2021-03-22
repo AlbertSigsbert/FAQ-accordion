@@ -28,10 +28,12 @@ Users should be able to:
 
 ### Screenshot
 
-This is a desktop View.
+                 ##This is a desktop View.
+                 
 <img src="dist/images/Desktop view.png">
 
-This is for mobile view taken on a Pixel 2.
+                 ##This is for mobile view taken on a Pixel 2.
+                 
   <p align="center">
    <img src="dist/images/Mobile_view.jpeg">
   </p>
