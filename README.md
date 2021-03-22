@@ -29,11 +29,11 @@ Users should be able to:
 ### Screenshot
 
 This is a desktop View.
-<img src="dist/images/Desktop view.png" width="250px">
+<img src="dist/images/Desktop view.png">
 
 This is for mobile view taken on a Pixel 2.
 
-<img src="dist/images/Mobile view.png" width="250px">
+<img src="dist/images/Mobile view.png" height="250px">
 
 ### Links
 
