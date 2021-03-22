@@ -28,15 +28,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+This is for desktop View
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+![127 0 0 1_5500_dist_index html](https://user-images.githubusercontent.com/66664314/111941467-2b61be00-8ae2-11eb-910c-d7dc42d01cc3.png)
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
+This is a mobile view taken on Pixel 2
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![127 0 0 1_5500_dist_index html(Pixel 2)](https://user-images.githubusercontent.com/66664314/111941562-5c41f300-8ae2-11eb-8f7d-d8462dc30127.png)
 
 ### Links
 
