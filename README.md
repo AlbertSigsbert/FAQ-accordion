@@ -32,9 +32,9 @@ This is a desktop View.
 <img src="dist/images/Desktop view.png">
 
 This is for mobile view taken on a Pixel 2.
-
-<img src="dist/images/Mobile_view.jpeg">
-
+ <div style="display:grid; place-items:center">
+     <img src="dist/images/Mobile_view.jpeg">
+</div>
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
