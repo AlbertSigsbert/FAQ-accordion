@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #af67e9;
+  margin: 0;
+  height: 100%;
+  font-family: "Kumbh Sans", sans-serif;
+  display: grid;
+  place-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+.wrapper {
+  margin: 10% 0;
+  padding: 1em;
+  border-radius: 15px;
+  background: #f8fafc;
+  width: 750px;
+  height: 350px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  padding: .5em;
+  max-height: 250px;
+}
+
+.showcase {
+  position: relative;
+}
+
+.showcase .img-1 {
+  position: absolute;
+  left: -3.5em;
+  width: 95%;
+}
+
+.showcase .img-2 {
+  margin-left: -50%;
+  margin-top: -40%;
+  transform: translate(-10%, 0);
+}
+
+.showcase .img-3 {
+  width: 40%;
+  transform: translate(-60%, -200%);
+}
+
+.showcase .visible-mobile {
+  display: none !important;
+}
+
+.content h2 {
+  padding-bottom: 1em;
+}
+
+.content .faq-item {
+  padding: .5em 0;
+}
+
+.content .faq-item .question {
+  display: flex;
+  justify-content: space-between;
+  color: #7d7d8c;
+  font-size: 1.2rem;
+}
+
+.content .faq-item .question h6.bold {
+  color: #1d1e35;
+}
+
+.content .faq-item .question h6:hover {
+  color: #f47c57;
+}
+
+.content .faq-item .question .arrow-down.invert {
+  transform: scaleY(-1);
+}
+
+.content .faq-item .answer {
+  display: none;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #787887;
+}
+
+.content .faq-item .answer.show {
+  display: inline-block;
+}
+
+.content .separator {
+  color: #e7e7e9;
+}
+
+@media all and (max-width: 480px) {
+  .wrapper {
+    margin: 30% 0;
+    padding: 1em;
+    max-width: calc(100vw - 100px);
+    height: 500px;
+  }
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+    max-height: calc(100vh -100px);
+  }
+  .showcase .img-1 {
+    width: 100%;
+    left: 0;
+    transform: translate(0, -60%);
+  }
+  .showcase .img-2 {
+    width: 95%;
+    margin-left: 0;
+    margin-top: 0;
+    transform: translate(10%, -20%);
+  }
+  .showcase .visible-mobile {
+    display: inline !important;
+  }
+  .showcase .hidden-mobile {
+    display: none !important;
+  }
+  .content h2 {
+    text-align: center;
+    padding: .5em 0;
+  }
+}
+/*# sourceMappingURL=main.css.map */
