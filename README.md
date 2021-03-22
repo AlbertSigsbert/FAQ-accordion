@@ -28,13 +28,17 @@ Users should be able to:
 
 ### Screenshot
 
-This is for desktop View
+This is a desktop View.
 
-![127 0 0 1_5500_dist_index html](https://user-images.githubusercontent.com/66664314/111941467-2b61be00-8ae2-11eb-910c-d7dc42d01cc3.png)
+This is for mobile view taken on a Pixel 2.
+
+<<<<<<< HEAD
+This is for desktop View
+=======
+
+> > > > > > > 3c394b1fde66f8994d69caef69984a42ce0d1f8f
 
 This is a mobile view taken on Pixel 2
-
-![127 0 0 1_5500_dist_index html(Pixel 2)](https://user-images.githubusercontent.com/66664314/111941562-5c41f300-8ae2-11eb-8f7d-d8462dc30127.png)
 
 ### Links
 
