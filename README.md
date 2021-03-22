@@ -33,7 +33,7 @@ This is a desktop View.
 
 This is for mobile view taken on a Pixel 2.
 
-<img src="dist/images/Mobile_view.png">
+<img src="dist/images/Mobile_view.jpeg">
 
 ### Links
 
