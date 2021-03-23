@@ -108,7 +108,9 @@ img {
 }
 
 .content .separator {
-  color: #e7e7e9;
+  display: block;
+  width: 100%;
+  border-top: 1px solid #e7e7e9;
 }
 
 @media all and (max-width: 480px) {
