@@ -117,7 +117,10 @@ img{
  
     .separator
     {
-        color: $Light-grayish-blue;
+        display: block;
+        width: 100%;
+        border-top: 1px solid $Light-grayish-blue;
+      
     }
 }
 
