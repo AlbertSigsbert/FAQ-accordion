@@ -31,15 +31,15 @@ img {
   padding: 1em;
   border-radius: 15px;
   background: #f8fafc;
-  width: 750px;
-  height: 350px;
+  max-width: 58rem;
+  height: 32rem;
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
-  padding: .5em;
+  padding: 4em;
   max-height: 250px;
 }
 
@@ -50,18 +50,19 @@ img {
 .showcase .img-1 {
   position: absolute;
   left: -3.5em;
-  width: 95%;
+  transform: translate(-20%, 0);
 }
 
 .showcase .img-2 {
-  margin-left: -50%;
-  margin-top: -40%;
-  transform: translate(-10%, 0);
+  margin-left: -90%;
+  margin-top: -100%;
+  transform: translate(-15%, 15%);
+  width: 200%;
 }
 
 .showcase .img-3 {
-  width: 40%;
-  transform: translate(-60%, -200%);
+  width: 50%;
+  transform: translate(-85%, -130%);
 }
 
 .showcase .visible-mobile {
@@ -79,13 +80,18 @@ img {
 .content .faq-item .question {
   display: flex;
   justify-content: space-between;
-  color: #7d7d8c;
-  font-size: 1.2rem;
-  padding-bottom: .2em;
+  cursor: pointer;
+  padding: .5em 0;
+}
+
+.content .faq-item .question h6 {
+  color: #1d1e35;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 .content .faq-item .question h6.bold {
-  color: #1d1e35;
+  font-weight: 600;
 }
 
 .content .faq-item .question h6:hover {
@@ -99,10 +105,9 @@ img {
 .content .faq-item .answer {
   display: none;
   font-family: "Kumbh Sans", sans-serif;
-  font-size: 12px;
   line-height: 1.6;
   color: #787887;
-  padding-bottom: .2em;
+  padding-bottom: .5em 0;
 }
 
 .content .faq-item .answer.show {
@@ -113,7 +118,6 @@ img {
   display: block;
   width: 100%;
   border-top: 1px solid #e7e7e9;
-  padding: .2em 0;
 }
 
 @media all and (max-width: 480px) {
