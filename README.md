@@ -30,12 +30,12 @@ Users should be able to:
 
                 This is a desktop View.
                  
-<img src="dist/images/Desktop view.png">
+<img src="dist/images/desktop_view.png">
 
                  This is for mobile view taken on a Pixel 2.
                  
   <p align="center">
-   <img src="dist/images/Mobile_view.jpeg">
+   <img src="dist/images/mobile__view.jpeg">
   </p>
 ### Links
 
