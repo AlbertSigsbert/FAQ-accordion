@@ -35,7 +35,7 @@ Users should be able to:
                  This is for mobile view taken on a Pixel 2.
                  
   <p align="center">
-   <img src="dist/images/mobile__view.png">
+   <img src="dist/images/mobile_view.png">
   </p>
 ### Links
 
