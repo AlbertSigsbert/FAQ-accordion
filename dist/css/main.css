@@ -100,7 +100,7 @@ img {
   font-weight: 600;
 }
 
-.content .faq-item .question h6:hover {
+.content .faq-item .question h6:active {
   color: #f47c57;
 }
 
