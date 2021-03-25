@@ -63,6 +63,12 @@ img {
 .showcase .img-3 {
   width: 50%;
   transform: translate(-90%, -130%);
+  transition-property: transform;
+  transition-duration: 1s;
+}
+
+.showcase:hover > .img-3 {
+  transform: translate(-100%, -130%);
 }
 
 .showcase .visible-mobile {
@@ -94,7 +100,7 @@ img {
   font-weight: 600;
 }
 
-.content .faq-item .question h6:hover {
+.content .faq-item .question h6:active {
   color: #f47c57;
 }
 
