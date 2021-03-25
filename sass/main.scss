@@ -4,8 +4,6 @@
 //Abstracts
 @import 'abstracts/variables';
 
-
-
 *{
     box-sizing: border-box;
     margin: 0;
@@ -71,6 +69,11 @@ img{
   .img-3{
       width:50%;
       transform: translate(-90%, -130%);
+      transition-property: transform;
+      transition-duration: 1s;
+  }
+   &:hover > .img-3{
+    transform: translate(-100%, -130%);
   }
 
   .visible-mobile{
